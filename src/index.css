@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+@theme{
+ --font-lato: "Lato", sans-serif;
+ --color-dark:#1B1B1B;
+ --color-second:#7B7B7B;
+}
+
+
+
+
+
+.slick-dots li.slick-active div {
+    background-color: #06C279;  
+}
+.slick-center circle {
+    fill: #06C279;
+}
+
+
+
+
