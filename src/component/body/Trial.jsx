@@ -1,22 +1,3 @@
-// import React from 'react'
-// import womenImg from '../../assets/image/women.png'
-// const Trial = () => {
-//   return (
-//     <section className='pt-21.5 pb-21.25 bg-[#06C279]'>
-//         <div className='container mx-auto'>
-//             <div className="relative">
-//                     <h2 className='font-lato font-semibold text-[45px] leading-13.5 text-[#FFFFFF] pb-9.5 capitalize'>Don't worries, start your free trial today!</h2>
-//                     <a className='font-lato font-semibold text-[16px] bg-dark text-[#FFFFFF] rounded-[5px] py-[14.5px] px-6.25 hover:bg-[#FFFFFF] hover:text-dark' href="">Get Free Trial</a>
-//                     <img className='absolute -top-33 right-7 w-87.25 h-86.75' src={womenImg } alt="" />
-//             </div>
-//         </div>
-//     </section>
-//   )
-// }
-
-// export default Trial
-
-
 
 import React from 'react'
 import womenImg from '../../assets/image/women.png'
@@ -25,7 +6,7 @@ const Trial = () => {
   return (
     <section className="w-full overflow-hidden bg-[#06C279] py-12 sm:py-16 lg:py-21.5">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative flex min-h-[260px] flex-col items-start justify-center sm:min-h-[300px] lg:min-h-[280px]">
+        <div className="relative flex min-h-65 flex-col items-start justify-center sm:min-h-75 lg:min-h-70">
           
           {/* Content */}
           <div className="relative z-10 w-full max-w-2xl lg:max-w-[65%]">
